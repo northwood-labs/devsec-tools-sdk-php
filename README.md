@@ -8,12 +8,11 @@ A PHP SDK for interacting with the [DevSecTools API].
 
 This client provides an easy way to interact with the [DevSecTools API], which scans websites for security-related information such as HTTP version support and TLS configurations.
 
-* Uses [Guzzle] to handle HTTP requests and supports both synchronous and asynchronous (parallel) requests.
-* Fully-typed, with type-hints for JetBrains IDEs, VS Code, and other tools which leverage those patterns.
-* Built to leverage features in PHP 8.1.
-* _Zero backwards-compatibility guarantees_ until we hit v1.0.
-
-Will only support [versions of PHP which receive support](https://www.php.net/supported-versions.php) from the core team. Presently, this means PHP 8.1+.
+* ✅ Requires PHP 8.1+.
+* ✅ Uses [Guzzle] to handle HTTP requests and supports both synchronous and asynchronous (parallel) requests.
+* ✅ Fully-typed; ensures strong IDE support with proper type hints and PSR-5 docblocks.
+* ✅ PSR-4 autoloading configured.
+* ✅ Supports [versions of PHP which receive support](https://www.php.net/supported-versions.php) from the core team.
 
 ## Model
 
