@@ -37,9 +37,6 @@ $api = new Client();
 
 ### Custom configuration
 
-<details>
-<summary>See example…</summary>
-
 ```php
 <?php
 declare(strict_types=1);
@@ -56,12 +53,7 @@ $api = new Client([
 ]);
 ```
 
-</details>
-
 ### Updating configuration at runtime
-
-<details>
-<summary>See example…</summary>
 
 ```php
 <?php
@@ -80,12 +72,7 @@ $api->setBaseUri(Endpoint::LOCALDEV);
 $api->setTimeoutSeconds(15);
 ```
 
-</details>
-
 ### Making single requests
-
-<details>
-<summary>See example…</summary>
 
 ```php
 <?php
@@ -103,12 +90,7 @@ $httpInfo = $api->http('example.com');
 print_r($httpInfo);
 ```
 
-</details>
-
 ### Making parallel/batch requests
-
-<details>
-<summary>See example…</summary>
 
 ```php
 <?php
@@ -130,8 +112,6 @@ $batchResults = $api->batch([
 
 print_r($batchResults);
 ```
-
-</details>
 
 [DevSecTools API]: https://devsec.tools
 [Guzzle]: https://docs.guzzlephp.org
